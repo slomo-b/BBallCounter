@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    min-width: 575px;
+    min-height: 385px;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 40px;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+a {
+    font-family: Cursed Timer ULiL;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-top {
+    display: flex;
+    margin-bottom: -2rem;
+}
+
+button {
+    background: none;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.reset-btn {
+    color: #9AABD8;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 35px;
+    width: 35px;
+}
+
+.inc-btn {
+    height: 45px;
+    width: 45px;
+    margin-top: 25px;
+    color: #9AABD8;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leader-txt {
+    color: #9AABD8;
+    font-family: Apple II Screen Typeface;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.leader-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.screen-box {
+    background: #080001;
+    height: 120px;
+    width: 155px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    color: #F94F6D;
+    font-size: 90px;
+    margin-top: 15px;
+}
+

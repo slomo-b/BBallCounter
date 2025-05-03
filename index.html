@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/apple-ii-screen-typeface" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-top">
+            <button onclick="reset()" class="reset-btn"><i class="fas fa-rotate-right"></i></button>
+            <div style="width: 250px;"></div>
+        </div>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="screen-box">
+                    <a class="score" id="score-home">0</a>
+                </div>
+                <div class="btn-wrapper">
+                    <button onclick="add1Home(), lead()" class="inc-btn" id="add-1-home">+1</button>
+                    <button onclick="add2Home()" class="inc-btn" id="add-2-home">+2</button>
+                    <button onclick="add3Home()" class="inc-btn" id="add-3-home">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="screen-box">
+                    <a class="score" id="score-guest">0</a>
+                </div>
+                <div class="btn-wrapper">
+                    <button onclick="add1Guest()" class="inc-btn" id="add-1-guest">+1</button>
+                    <button onclick="add2Guest()" class="inc-btn" id="add-2-guest">+2</button>
+                    <button onclick="add3Guest()" class="inc-btn" id="add-3-guest">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="leader-wrapper">
+            <h1 class="leader-txt">Leading</h1>
+            <h1 class="leader-txt"> , </h1>
+            <h1 class="leader-txt" style="color: chartreuse;" id="leader">EVEN</h1>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
