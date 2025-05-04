@@ -1,3 +1,5 @@
+A BasketBall Counting App to count bball games. Ive made this app on my web developer journey on scrimba.
+get a running preview of the app here:     https://whimsical-dragon-7addb7.netlify.app/
 # Getting Started
 Install the dependencies and run the project
 ```
